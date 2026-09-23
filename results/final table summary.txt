@@ -1,0 +1,136 @@
+Metric,n_label,dropout_pct,GEE (Gaussian),GEE (Logistic),GLMM,LME
+Bias (MCSE),N = 100,10%,0.004 (0.013),0.017 (0.006),0.014 (0.007),0.004 (0.013)
+Bias (MCSE),N = 100,20%,0.018 (0.014),0.010 (0.006),0.005 (0.007),0.019 (0.014)
+Bias (MCSE),N = 100,30%,0.003 (0.015),0.014 (0.006),0.007 (0.007),-0.003 (0.015)
+Bias (MCSE),N = 100,40%,-0.002 (0.016),0.010 (0.007),0.002 (0.008),0.001 (0.016)
+Bias (MCSE),N = 200,10%,0.009 (0.009),0.007 (0.004),0.000 (0.005),0.009 (0.009)
+Bias (MCSE),N = 200,20%,0.009 (0.009),0.000 (0.004),-0.008 (0.005),0.006 (0.009)
+Bias (MCSE),N = 200,30%,0.007 (0.010),0.004 (0.005),-0.002 (0.005),0.007 (0.010)
+Bias (MCSE),N = 200,40%,-0.003 (0.011),-0.000 (0.005),-0.008 (0.006),-0.004 (0.011)
+Bias (MCSE),N = 500,10%,0.006 (0.006),0.001 (0.003),-0.006 (0.003),0.006 (0.006)
+Bias (MCSE),N = 500,20%,-0.008 (0.006),0.000 (0.003),-0.005 (0.003),-0.010 (0.006)
+Bias (MCSE),N = 500,30%,0.002 (0.007),-0.000 (0.003),-0.008 (0.003),-0.000 (0.006)
+Bias (MCSE),N = 500,40%,0.002 (0.007),0.005 (0.003),-0.003 (0.004),-0.001 (0.007)
+RMSE (MCSE),N = 100,10%,0.413 (0.009),0.190 (0.004),0.224 (0.005),0.412 (0.009)
+RMSE (MCSE),N = 100,20%,0.448 (0.011),0.184 (0.004),0.217 (0.005),0.443 (0.011)
+RMSE (MCSE),N = 100,30%,0.465 (0.011),0.197 (0.004),0.232 (0.005),0.457 (0.010)
+RMSE (MCSE),N = 100,40%,0.498 (0.012),0.212 (0.005),0.250 (0.006),0.489 (0.012)
+RMSE (MCSE),N = 200,10%,0.293 (0.007),0.136 (0.003),0.160 (0.004),0.291 (0.007)
+RMSE (MCSE),N = 200,20%,0.299 (0.007),0.130 (0.003),0.153 (0.003),0.296 (0.007)
+RMSE (MCSE),N = 200,30%,0.327 (0.007),0.143 (0.003),0.170 (0.004),0.325 (0.007)
+RMSE (MCSE),N = 200,40%,0.355 (0.008),0.147 (0.003),0.175 (0.004),0.348 (0.008)
+RMSE (MCSE),N = 500,10%,0.187 (0.004),0.081 (0.002),0.096 (0.002),0.186 (0.004)
+RMSE (MCSE),N = 500,20%,0.196 (0.005),0.083 (0.002),0.099 (0.002),0.195 (0.004)
+RMSE (MCSE),N = 500,30%,0.207 (0.005),0.088 (0.002),0.103 (0.002),0.205 (0.005)
+RMSE (MCSE),N = 500,40%,0.209 (0.005),0.094 (0.002),0.111 (0.003),0.207 (0.005)
+Metric,scenario,n_label,dropout_pct,GEE (Gaussian),GEE (Logistic),GLMM,LME
+Convergence rate (\%),alternative,N = 100,10%,100.0,100.0,98.7,99.6
+Convergence rate (\%),alternative,N = 100,20%,100.0,100.0,98.8,99.6
+Convergence rate (\%),alternative,N = 100,30%,100.0,100.0,98.2,99.3
+Convergence rate (\%),alternative,N = 100,40%,100.0,100.0,97.8,99.2
+Convergence rate (\%),alternative,N = 200,10%,100.0,100.0,97.7,100.0
+Convergence rate (\%),alternative,N = 200,20%,100.0,100.0,97.8,100.0
+Convergence rate (\%),alternative,N = 200,30%,100.0,100.0,97.6,100.0
+Convergence rate (\%),alternative,N = 200,40%,100.0,100.0,97.6,100.0
+Convergence rate (\%),alternative,N = 500,10%,100.0,100.0,96.9,100.0
+Convergence rate (\%),alternative,N = 500,20%,100.0,100.0,96.1,100.0
+Convergence rate (\%),alternative,N = 500,30%,100.0,100.0,96.1,100.0
+Convergence rate (\%),alternative,N = 500,40%,100.0,100.0,96.8,100.0
+Convergence rate (\%),null,N = 100,10%,100.0,100.0,97.5,99.7
+Convergence rate (\%),null,N = 100,20%,100.0,100.0,98.0,98.9
+Convergence rate (\%),null,N = 100,30%,100.0,100.0,98.1,99.3
+Convergence rate (\%),null,N = 100,40%,100.0,100.0,98.4,98.6
+Convergence rate (\%),null,N = 200,10%,100.0,100.0,98.0,100.0
+Convergence rate (\%),null,N = 200,20%,100.0,100.0,99.0,100.0
+Convergence rate (\%),null,N = 200,30%,100.0,100.0,99.1,99.9
+Convergence rate (\%),null,N = 200,40%,100.0,100.0,98.3,100.0
+Convergence rate (\%),null,N = 500,10%,100.0,100.0,99.6,100.0
+Convergence rate (\%),null,N = 500,20%,100.0,100.0,98.9,100.0
+Convergence rate (\%),null,N = 500,30%,100.0,100.0,99.1,100.0
+Convergence rate (\%),null,N = 500,40%,100.0,100.0,99.7,100.0
+Singularity rate (\%),alternative,N = 100,10%,N/A,N/A,0.1,0.4
+Singularity rate (\%),alternative,N = 100,20%,N/A,N/A,0.2,0.4
+Singularity rate (\%),alternative,N = 100,30%,N/A,N/A,0.2,0.7
+Singularity rate (\%),alternative,N = 100,40%,N/A,N/A,0.9,0.8
+Singularity rate (\%),alternative,N = 200,10%,N/A,N/A,0.0,0.0
+Singularity rate (\%),alternative,N = 200,20%,N/A,N/A,0.0,0.0
+Singularity rate (\%),alternative,N = 200,30%,N/A,N/A,0.0,0.0
+Singularity rate (\%),alternative,N = 200,40%,N/A,N/A,0.0,0.0
+Singularity rate (\%),alternative,N = 500,10%,N/A,N/A,0.0,0.0
+Singularity rate (\%),alternative,N = 500,20%,N/A,N/A,0.0,0.0
+Singularity rate (\%),alternative,N = 500,30%,N/A,N/A,0.0,0.0
+Singularity rate (\%),alternative,N = 500,40%,N/A,N/A,0.0,0.0
+Singularity rate (\%),null,N = 100,10%,N/A,N/A,0.3,0.3
+Singularity rate (\%),null,N = 100,20%,N/A,N/A,0.8,1.1
+Singularity rate (\%),null,N = 100,30%,N/A,N/A,0.6,0.7
+Singularity rate (\%),null,N = 100,40%,N/A,N/A,0.9,1.4
+Singularity rate (\%),null,N = 200,10%,N/A,N/A,0.0,0.0
+Singularity rate (\%),null,N = 200,20%,N/A,N/A,0.0,0.0
+Singularity rate (\%),null,N = 200,30%,N/A,N/A,0.0,0.1
+Singularity rate (\%),null,N = 200,40%,N/A,N/A,0.0,0.0
+Singularity rate (\%),null,N = 500,10%,N/A,N/A,0.0,0.0
+Singularity rate (\%),null,N = 500,20%,N/A,N/A,0.0,0.0
+Singularity rate (\%),null,N = 500,30%,N/A,N/A,0.0,0.0
+Singularity rate (\%),null,N = 500,40%,N/A,N/A,0.0,0.0
+Metric,n_label,dropout_pct,GEE (Gaussian),GEE (Logistic),GLMM,LME
+Coverage 95\% CI (MCSE),N = 100,10%,95.1 (0.7),93.9 (0.8),95.1 (0.7),94.8 (0.7)
+Coverage 95\% CI (MCSE),N = 100,20%,94.8 (0.7),95.3 (0.7),96.2 (0.6),94.6 (0.7)
+Coverage 95\% CI (MCSE),N = 100,30%,93.8 (0.8),95.6 (0.6),95.5 (0.7),94.7 (0.7)
+Coverage 95\% CI (MCSE),N = 100,40%,93.7 (0.8),94.3 (0.7),95.0 (0.7),93.2 (0.8)
+Coverage 95\% CI (MCSE),N = 200,10%,94.6 (0.7),94.3 (0.7),94.3 (0.7),94.9 (0.7)
+Coverage 95\% CI (MCSE),N = 200,20%,95.0 (0.7),95.3 (0.7),96.0 (0.6),95.1 (0.7)
+Coverage 95\% CI (MCSE),N = 200,30%,94.1 (0.7),94.4 (0.7),95.1 (0.7),94.3 (0.7)
+Coverage 95\% CI (MCSE),N = 200,40%,93.8 (0.8),95.3 (0.7),95.2 (0.7),93.3 (0.8)
+Coverage 95\% CI (MCSE),N = 500,10%,95.3 (0.7),95.3 (0.7),95.0 (0.7),95.1 (0.7)
+Coverage 95\% CI (MCSE),N = 500,20%,95.1 (0.7),94.4 (0.7),94.8 (0.7),94.9 (0.7)
+Coverage 95\% CI (MCSE),N = 500,30%,93.9 (0.8),95.4 (0.7),95.8 (0.6),94.3 (0.7)
+Coverage 95\% CI (MCSE),N = 500,40%,94.3 (0.7),94.3 (0.7),93.7 (0.8),94.3 (0.7)
+SE Ratio (robust),N = 100,10%,0.997,0.972,0.984,0.996
+SE Ratio (robust),N = 100,20%,0.964,1.036,1.050,0.968
+SE Ratio (robust),N = 100,30%,0.976,1.006,1.019,0.981
+SE Ratio (robust),N = 100,40%,0.960,0.980,0.989,0.960
+SE Ratio (robust),N = 200,10%,1.006,0.950,0.960,1.011
+SE Ratio (robust),N = 200,20%,1.022,1.023,1.036,1.027
+SE Ratio (robust),N = 200,30%,0.991,0.971,0.976,0.987
+SE Ratio (robust),N = 200,40%,0.965,0.993,0.992,0.970
+SE Ratio (robust),N = 500,10%,0.999,1.010,1.012,1.000
+SE Ratio (robust),N = 500,20%,0.996,1.014,1.014,0.994
+SE Ratio (robust),N = 500,30%,0.992,1.002,1.019,0.990
+SE Ratio (robust),N = 500,40%,1.035,0.980,0.982,1.032
+SE Ratio (naive),N = 100,10%,0.790,0.977,0.984,0.996
+SE Ratio (naive),N = 100,20%,0.753,1.043,1.050,0.968
+SE Ratio (naive),N = 100,30%,0.751,1.013,1.019,0.981
+SE Ratio (naive),N = 100,40%,0.725,0.988,0.989,0.960
+SE Ratio (naive),N = 200,10%,0.790,0.954,0.960,1.011
+SE Ratio (naive),N = 200,20%,0.796,1.029,1.036,1.027
+SE Ratio (naive),N = 200,30%,0.756,0.974,0.976,0.987
+SE Ratio (naive),N = 200,40%,0.721,0.998,0.992,0.970
+SE Ratio (naive),N = 500,10%,0.785,1.011,1.012,1.000
+SE Ratio (naive),N = 500,20%,0.772,1.016,1.014,0.994
+SE Ratio (naive),N = 500,30%,0.757,1.003,1.019,0.990
+SE Ratio (naive),N = 500,40%,0.776,0.980,0.982,1.032
+Panel,n_label,dropout_pct,GEE (Gaussian),GEE (Logistic),GLMM,LME
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 100,10%,4.4 (0.6),7.4 (0.8),6.7 (0.8),4.1 (0.6)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 100,20%,6.3 (0.8),4.9 (0.7),4.2 (0.6),5.8 (0.7)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 100,30%,4.5 (0.7),5.4 (0.7),4.9 (0.7),4.5 (0.7)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 100,40%,6.2 (0.8),6.3 (0.8),5.1 (0.7),6.0 (0.8)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 200,10%,5.1 (0.7),5.1 (0.7),5.1 (0.7),5.3 (0.7)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 200,20%,4.8 (0.7),6.2 (0.8),5.9 (0.7),5.1 (0.7)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 200,30%,4.5 (0.7),4.5 (0.7),3.9 (0.6),4.3 (0.6)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 200,40%,7.4 (0.8),6.5 (0.8),6.4 (0.8),6.6 (0.8)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 500,10%,5.5 (0.7),5.8 (0.7),5.3 (0.7),5.6 (0.7)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 500,20%,5.0 (0.7),4.6 (0.7),4.1 (0.6),5.0 (0.7)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 500,30%,5.3 (0.7),4.6 (0.7),4.4 (0.7),5.2 (0.7)
+Type I Error -- Null ($\beta_3 = \alpha_3 = 0$),N = 500,40%,5.7 (0.7),5.6 (0.7),5.0 (0.7),5.4 (0.7)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 100,10%,67.9 (1.5),64.5 (1.5),63.6 (1.5),67.9 (1.5)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 100,20%,64.9 (1.5),62.4 (1.5),61.2 (1.6),64.9 (1.5)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 100,30%,59.8 (1.6),58.6 (1.6),57.2 (1.6),59.1 (1.6)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 100,40%,55.4 (1.6),54.9 (1.6),53.9 (1.6),55.5 (1.6)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 200,10%,93.6 (0.8),89.7 (1.0),89.8 (1.0),93.7 (0.8)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 200,20%,91.2 (0.9),87.6 (1.0),87.5 (1.1),91.4 (0.9)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 200,30%,87.4 (1.0),85.9 (1.1),86.0 (1.1),86.7 (1.1)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 200,40%,81.3 (1.2),82.3 (1.2),81.8 (1.2),82.6 (1.2)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 500,10%,100.0 (0.0),100.0 (0.0),100.0 (0.0),100.0 (0.0)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 500,20%,99.8 (0.1),99.9 (0.1),99.9 (0.1),99.8 (0.1)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 500,30%,99.8 (0.1),99.5 (0.2),99.6 (0.2),99.8 (0.1)
+"Power -- Alternative ($\beta_3 = 1.0$, $\alpha_3 = 0.5$ conditional)",N = 500,40%,99.7 (0.2),99.4 (0.2),99.5 (0.2),99.7 (0.2)
